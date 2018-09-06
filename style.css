@@ -1,0 +1,45 @@
+ul {
+	list-style-type: none;
+}
+a {
+	list-style-type: none;
+}
+.game{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #ddd;
+	padding: 0px;
+	color:black;
+}
+.gameBlock {
+	display: inline-block;
+	width: 98px;
+	height: 98px;
+	float: left;
+	border: solid 1px black;
+	text-align: center;
+	text-align: middle;
+	font-size: 56pt;
+	font-family: tahoma;
+	color: #ddd;
+}
+.gameBlock:hover {
+	background-color: #99a;
+	color: #99a;
+}
+.restart {
+	display: block;
+	width: 50%;
+	background-color: #99a;
+	float: left;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	color:black;
+	margin-left: 25%;
+	border: solid 1px black;
+	border-radius: 10px;
+	margin-top: 10px;
+}
